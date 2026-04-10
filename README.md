@@ -38,3 +38,23 @@ python motion_detector.py --display --min-area 3000 --cooldown 1.5
 
 - Press `q` in the preview window to quit when `--display` is enabled.
 - Press `Ctrl+C` to stop from the terminal.
+
+## JPG Viewer
+
+Open a JPG file:
+
+```powershell
+python jpg_viewer.py path\to\image.jpg
+```
+
+Open all JPG files in a folder:
+
+```powershell
+python jpg_viewer.py path\to\folder
+```
+
+Controls:
+
+- `n` or Right Arrow: next image
+- `p` or Left Arrow: previous image
+- `q` or `Esc`: quit
